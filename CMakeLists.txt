@@ -62,7 +62,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/build_files/cmake/platform")
 
 # avoid having empty buildtype
 if(NOT DEFINED CMAKE_BUILD_TYPE_INIT)
-  set(CMAKE_BUILD_TYPE_INIT "Release")
+  set(CMAKE_BUILD_TYPE_INIT "Debug")
 endif()
 
 # Omit superfluous "Up-to-date" messages.
